@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block start %}
+<div class="d-grid gap-2 col-6 mx-auto">
+    <h2 style="display: flex; justify-content: center; align-items: center;">Choose the Course you want to begin!!</h2>
+    <button class="btn btn-info btn-lg" type="button" onclick="location.href = '/home/sem1/ed'">Engineering Drawing</button>
+    <button class="btn btn-dark btn-lg" type="button" onclick="location.href = '/home/sem1/chem'">Applied Chemistry</button>
+    <button class="btn btn-info btn-lg" type="button" onclick="location.href = '/home/sem1/computing'">Introduction to Computing</button>
+    <button class="btn btn-dark btn-lg" type="button" onclick="location.href = '/home/sem1/calculus'">Calculus</button>
+    <button class="btn btn-info btn-lg" type="button" onclick="location.href = '/home/sem1/ieee'">Introduction to Electronics & Electrical Engineering</button>
+  </div>
+{% endblock %}
